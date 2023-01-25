@@ -12593,4 +12593,20 @@ fieldset:disabled .btn {
   background-color: rgb(175, 214, 214);
 }
 
+.barra_home {
+  width: 100%;
+  height: 75px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 0px !important;
+  left: 0;
+}
+
 

@@ -67,7 +67,7 @@
     <body>
         <div class="flex-center position-ref full-height container_page_1">
             @if (Route::has('login'))
-                <div class="top-right links">
+                <div class="top-right links barra_home">
                     @auth
                         <a href="{{ route('admin.home') }}">Home</a>
                     @else
